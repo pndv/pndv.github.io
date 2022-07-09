@@ -1,3 +1,27 @@
-baseURL = "http://example.org/"
+baseURL = ""
+enableRobotsTXT = true
+googleAnalytics= "G-M30EZEZ0B2"
 languageCode = "en-us"
-title = "My New Hugo Site"
+theme =  ["github.com/Mitrichius/hugo-theme-anubis"]
+title = "PNDV blog"
+omit_header_text = true
+
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+title = "Posts"
+url = "/posts/"
+weight = 0
+
+[params]
+style = "dark"
+
+[[params.social]]
+id = "github"
+name = "pndv"
+
+#
+#[module]
+#[[module.imports]]
+#path = "github.com/dsrkafuu/hugo-theme-fuji"
