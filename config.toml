@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://pndv.github.io"
 enableRobotsTXT = true
 googleAnalytics= "G-M30EZEZ0B2"
 languageCode = "en-us"
