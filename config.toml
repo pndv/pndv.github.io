@@ -20,8 +20,3 @@ style = "dark"
 [[params.social]]
 id = "github"
 name = "pndv"
-
-#
-#[module]
-#[[module.imports]]
-#path = "github.com/dsrkafuu/hugo-theme-fuji"
