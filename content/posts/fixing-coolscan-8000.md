@@ -1,7 +1,7 @@
 ---
 title: "Fixing My Nikon CoolScan 8000"
 date: 2022-07-11T15:58:39-07:00
-draft: true
+draft: false
 categories:
 hobbies:
 - photography
