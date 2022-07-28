@@ -26,6 +26,7 @@ Given that these scanners are more than 2 decades old, they still have a cult fo
 the [Facebook group](https://www.facebook.com/groups/1514948298527146)).
 The reason has to do with the excellent lens, true 4000dpi scanning resolution, 14 bit A/D (analog-to-digital)
 converter and, its autofocus mechanism.
+
 ---
 
 ## The Trouble
