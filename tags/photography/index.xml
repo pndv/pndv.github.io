@@ -40,12 +40,12 @@ other issue. Maybe it was just improper handling that some parts were out of ali
 &lt;/span>
 &lt;/h3>&lt;p>I saw that the shaft and motor were not touching when I powered on the scanner. I thought that this was another
 simple fix, and down the rabbit hole I went&amp;hellip;&lt;/p>
-&lt;p>Here is what I mean:&lt;/p>
-&lt;!-- raw HTML omitted -->
-&lt;p>The upper portion (circled) is the shaft-collar that was broken, and I had to get it 3D printed. The lower portion
-(circled) is the part I thought was misaligned. When I replaced the shaft-collar, I tried to align the two pieces
-together; however, the shaft would slip even with the slightest rotation. Thanks to the amazing community on Facebook;
-I found out that even the coupling is broken.&lt;/p>
+&lt;p>Here is what I mean:
+&lt;img src="ShaftCollar-TK156-005-CoolScan-8000/ShaftCollar-TK156-005-CoolScan-8000-worm-drive.jpg" alt="Broken pieces at the end">&lt;/p>
+&lt;p>The upper portion (circled) is the shaft-collar that was broken, and I had to get it 3D printed. The lower portion of
+the shaft contained the broken coupling (not shown) is the part I thought was misaligned. When I replaced the
+shaft-collar, I tried to align the two pieces together; however, the shaft would slip even with the slightest rotation.
+Thanks to the amazing community on Facebook; I found out that even the coupling is broken.&lt;/p>
 &lt;p>After I had replaced these parts, the scanner started working normally. But, as soon as I put the cover back on, the
 same problem showed up. I removed the cover to see maybe I had incorrectly put some component, or forgot to tighten
 a screw. However, as soon as I removed the cover&amp;hellip; scanner started working again. I was left scratching my head,
@@ -68,13 +68,13 @@ STL file for the missing part which I had to 3-D print.&lt;/p>
 &lt;/span>
 &lt;/h3>&lt;p>This part is referred as TK156-005 in the Nikon repair manual andI had to 3D print this part. The picture of broken and
 whole part are shown side-by-side.&lt;/p>
-&lt;p>&lt;img src="../media/ShaftCollar-TK156-005-CoolScan-8000/ShaftCollar-TK156-005-CoolScan-8000-compare.jpg" alt="Before And After">&lt;/p>
+&lt;p>&lt;img src="ShaftCollar-TK156-005-CoolScan-8000/ShaftCollar-TK156-005-CoolScan-8000-compare.jpg" alt="Before And After">&lt;/p>
 &lt;p>Getting correct measurements was a challenge, but designing on Fusion 360 was fairly easy. You can download
 the file as either:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="../media/ShaftCollar-TK156-005-CoolScan-8000/ShaftCollar-TK156-005-CoolScan-8000.f3d">Fusion 360&lt;/a>&lt;/li>
-&lt;li>&lt;a href="../media/ShaftCollar-TK156-005-CoolScan-8000/ShaftCollar-TK156-005-CoolScan-8000.step">STEP&lt;/a> for designing&lt;/li>
-&lt;li>&lt;a href="../media/ShaftCollar-TK156-005-CoolScan-8000/ShaftCollar-TK156-005-CoolScan-8000.stl">STL&lt;/a> for 3D printing&lt;/li>
+&lt;li>&lt;a href="ShaftCollar-TK156-005-CoolScan-8000/ShaftCollar-TK156-005-CoolScan-8000.f3d">Fusion 360&lt;/a>&lt;/li>
+&lt;li>&lt;a href="ShaftCollar-TK156-005-CoolScan-8000/ShaftCollar-TK156-005-CoolScan-8000.step">STEP&lt;/a> for designing&lt;/li>
+&lt;li>&lt;a href="ShaftCollar-TK156-005-CoolScan-8000/ShaftCollar-TK156-005-CoolScan-8000.stl">STL&lt;/a> for 3D printing&lt;/li>
 &lt;/ul>
 &lt;h3 id="screws-and-washers" >Screws and washers
 &lt;span>
