@@ -11,6 +11,7 @@ namely, to catch breaking changes in the code. They may superficially serve test
 code, but have never served me well for code maintenance. In fact, at one point, I loathed writing unit tests via 
 mocking frameworks because I was forced to change my design in order to make my code "testable".
 
+#### Design modifications
 For example, I was forced to, only for writing tests, make changes like following only because of the test framework:
 * Make `private` objects either package-private (Java) or `internal` (C#)
 * Remove `static` objects or methods
@@ -47,6 +48,16 @@ The SQL Server will complain about `-` in `test-db`, in order to correct it, you
 
 We have assumed that the code is written correctly, and we proceeded to mock the DB connection. That is exactly 
 opposite of what a test is supposed to do! And this is another reason of my dislike for such _unit_ tests. 
+
+#### No way to benchmark performance
+Suppose you have mocked out your call to DB, and you make thousands of queries. Since the mock gives you 
+instantaneous results, you will not be able to find out the cost of your operations
+
+Extending the example of database mocks, what are the memory considerations of running a complex query? Even though 
+you have tested the query on DB, and it is working as desired, what will happen when you execute that query from the 
+code? Complex DB queries can have significant memory overhead. This is because the drivers try to parse and optimise 
+the query as much as possible before sending it over the network, this is to minimise the load on DB server.  
+
 
 
 ### What, then, are unit tests? What should be mocked?
