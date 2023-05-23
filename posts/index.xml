@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on PNDV blog</title><link>https://pndv.github.io/posts/</link><description>PNDV blog (Posts)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 19 Oct 2022 13:58:09 -0700</lastBuildDate><atom:link href="https://pndv.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>The Stupidity of Hindi Translation For A Female President (राष्ट्रपत्नि) (राष्ट्रपत्नि) Suggestion</title><link>https://pndv.github.io/posts/rashtrapatni-debate/</link><pubDate>Wed, 19 Oct 2022 13:58:09 -0700</pubDate><guid>https://pndv.github.io/posts/rashtrapatni-debate/</guid><description>&lt;p>The elevation of Ms Draupadi Murmu as the head of state should have been a routine exercise, witnessed by India
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on PNDV blog</title><link>https://pndv.github.io/posts/</link><description>PNDV blog (Posts)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 23 May 2023 13:22:17 -0700</lastBuildDate><atom:link href="https://pndv.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Is Infinite Process: An Interesting 'Easy' Problem</title><link>https://pndv.github.io/posts/is-infinite-process/</link><pubDate>Tue, 23 May 2023 13:22:17 -0700</pubDate><guid>https://pndv.github.io/posts/is-infinite-process/</guid><description>&lt;h2 id="it-took-me-some-time-to-figure-out-with-help-from-the-internet-here-is-the-problem" >This is an interesting problem I came across on &lt;a href="https://app.codesignal.com/">CodeSignal&lt;/a>; it is marked as easy but
+it took me some time to figure out (with help from the Internet). Here is the problem:
+&lt;span>
+&lt;a href="#it-took-me-some-time-to-figure-out-with-help-from-the-internet-here-is-the-problem">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>Given integers a and b, determine whether the following pseudocode results in an infinite loop&lt;/p>
+&lt;p>while a is not equal to b do
+increase a by 1
+decrease b by 1
+Assume that the program is executed on a virtual machine which can store arbitrary long numbers and execute forever.&lt;/p>
+&lt;p>Example&lt;/p>
+&lt;p>For a = 2 and b = 6, the output should be
+solution(a, b) = false;&lt;/p>
+&lt;h2 id="solutiona-b--true" >For a = 2 and b = 3, the output should be
+solution(a, b) = true.
+&lt;span>
+&lt;a href="#solutiona-b--true">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>The first approach was:&lt;/p>
+&lt;ol>
+&lt;li>To trivially return &lt;code>true&lt;/code> if &lt;code>a&lt;/code> &amp;gt; &lt;code>b&lt;/code>&lt;/li>
+&lt;li>Run a loop 10 times, noting the difference each time, return false (i.e. it will go in infinite loop) if:
+&lt;ol>
+&lt;li>difference becomes zero any time&lt;/li>
+&lt;li>absolute difference between two numbers has been consistently decreasing over the loop&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;p>Needless to say, this approach failed.&lt;/p>
+&lt;p>This is marked as an &amp;ldquo;Easy&amp;rdquo; problem, so I was slightly embarrassed at not getting it right. Nevertheless, I
+persisted in trying with various conditions, seeing why the code is succeeding. After 2 days, I decided to look on
+the web to see where I was going wrong. I came across this one-liner in &lt;code>python&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">isInfiniteProcess&lt;/span>(a, b):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#66d9ef">True&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span> (a&lt;span style="color:#f92672">-&lt;/span>b) &lt;span style="color:#f92672">%&lt;/span> &lt;span style="color:#ae81ff">2&lt;/span> &lt;span style="color:#f92672">==&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span> &lt;span style="color:#f92672">or&lt;/span> a&lt;span style="color:#f92672">&amp;gt;&lt;/span>b &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">False&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Which left me with more questions&amp;hellip; what exactly is this logic?&lt;/p>
+&lt;h4 id="the-aha-moment" >The Aha! moment
+&lt;span>
+&lt;a href="#the-aha-moment">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h4>&lt;p>The difference of two numbers should be odd, then it will go in infinite loop. But why? Here is the reasoning, if
+you look at the number line:&lt;/p>
+&lt;p>&lt;img src="number-line.gif" alt="Number Line">&lt;/p>
+&lt;p>The blue lines show convergence, the difference between the two numbers is even. Whereas, the numbers marked with
+red have odd difference, at each loop, you see even though they are getting closer, at one point, given in orange,
+they &lt;em>cross over each other without meeting&lt;/em>.&lt;/p></description></item><item><title>The Stupidity of Hindi Translation For A Female President (राष्ट्रपत्नि) (राष्ट्रपत्नि) Suggestion</title><link>https://pndv.github.io/posts/rashtrapatni-debate/</link><pubDate>Wed, 19 Oct 2022 13:58:09 -0700</pubDate><guid>https://pndv.github.io/posts/rashtrapatni-debate/</guid><description>&lt;p>The elevation of Ms Draupadi Murmu as the head of state should have been a routine exercise, witnessed by India
 every 5 years like a clockwork. And it was, till some lawmakers floated the puerile and &lt;em>prima-facie&lt;/em> sexist comment
 of calling her राष्ट्रपत्नि. The only mitigating argument which can be made for making the senseless suggestion is
 that these lawmakers are illiterate. Though, even literacy is no guarantee for presence of common sense.&lt;/p>
