@@ -18,4 +18,4 @@ The gentle constriction has become tighter and tighter and there is nauseousness
 so hard that I can feel the tightness coming up to my stomach. I can feel the sweat on my feet and my feet slipping in
 the insole of my leather shoes. My body was preparing to run even as my mind knew there was nowhere to go.
 
-_I was describing my stressful first job, working under a very toxic first person._
+_I was describing my stressful first job, working under a very toxic person._
