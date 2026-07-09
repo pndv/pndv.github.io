@@ -4,3 +4,10 @@
 /resources/
 /.hugo_build.lock
 /go.sum
+
+# Exclude generated build caches and output
+/.sass-cache/
+/.vs/
+/_css/
+/public/
+*.bak
