@@ -1,7 +1,7 @@
 baseURL = "https://pndv.github.io"
 enableRobotsTXT = true
 googleAnalytics= "G-M30EZEZ0B2"
-languageCode = "en-us"
+locale = "en-gb"
 theme =  ["github.com/Mitrichius/hugo-theme-anubis"]
 title = "PNDV blog"
 omit_header_text = true
