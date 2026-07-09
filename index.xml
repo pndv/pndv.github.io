@@ -1,270 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PNDV blog</title><link>https://pndv.github.io/</link><description>PNDV blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 23 May 2023 13:22:17 -0700</lastBuildDate><atom:link href="https://pndv.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Is Infinite Process: An Interesting 'Easy' Problem</title><link>https://pndv.github.io/posts/is-infinite-process/</link><pubDate>Tue, 23 May 2023 13:22:17 -0700</pubDate><guid>https://pndv.github.io/posts/is-infinite-process/</guid><description>&lt;h2 id="it-took-me-some-time-to-figure-out-with-help-from-the-internet-here-is-the-problem" >This is an interesting problem I came across on &lt;a href="https://app.codesignal.com/">CodeSignal&lt;/a>; it is marked as easy but
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PNDV blog</title><link>https://pndv.github.io/</link><description>Recent content on PNDV blog</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><copyright>© 2026</copyright><lastBuildDate>Fri, 03 Jul 2026 08:00:00 -0700</lastBuildDate><atom:link href="https://pndv.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>The Breakup</title><link>https://pndv.github.io/posts/breakup/</link><pubDate>Fri, 03 Jul 2026 08:00:00 -0700</pubDate><guid>https://pndv.github.io/posts/breakup/</guid><description>&lt;p&gt;&lt;em&gt;This is part of exercises I took in the writing workshop at Esalen in July 2026. This breakup was in 2014. This was on the \(3^{rd}\) day.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I am putting a book in the envelope. &amp;ldquo;The Little Prince&amp;rdquo;, has a signature of my now ex-girlfriend and date when it was
+gifted to me. My hands are steady but there is a volcano bubbling inside. I am angry at her, at my family, at the whole
+situation.&lt;/p&gt;</description></item><item><title>Massage in Dubai</title><link>https://pndv.github.io/posts/dubai/</link><pubDate>Thu, 02 Jul 2026 08:00:00 -0700</pubDate><guid>https://pndv.github.io/posts/dubai/</guid><description>&lt;p&gt;&lt;em&gt;This is part of exercises I took in the writing workshop at Esalen in July 2026.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I am in a taxi in Dubai, tired to my bones. The Pakistani taxi driver looks at his rearview mirror and says in a thick
+Punjabi accented English &amp;ldquo;You look tired&amp;rdquo;, &amp;ldquo;you must have a 200 plus IQ&amp;rdquo;, I wanted to say, but I merely nodded. Even
+nodding was painful. I had spent 3 weeks in a hospital taking care of my mother who had it not been for the doctors and
+nurses would not have made it from the medical shock of sepsis.&lt;/p&gt;</description></item><item><title>Describing emotion without naming it</title><link>https://pndv.github.io/posts/stress/</link><pubDate>Wed, 01 Jul 2026 08:00:00 -0700</pubDate><guid>https://pndv.github.io/posts/stress/</guid><description>&lt;p&gt;&lt;em&gt;This is part of exercises I took in the writing workshop at Esalen in July 2026. The idea is to describe the emotion without naming it. The reader should be able to guess.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The feeling starts in the gut gently constricting the insides as I pretend to type while putting my full attention to
+the sounds around me and sense if he is still watching over my shoulders.&lt;/p&gt;
+&lt;p&gt;The gentle constriction has become tighter and tighter and there is nauseousness in my throat. My buttocks are clenched
+so hard that I can feel the tightness coming up to my stomach. I can feel the sweat on my feet and my feet slipping in
+the insole of my leather shoes. My body was preparing to run even as my mind knew there was nowhere to go.&lt;/p&gt;</description></item><item><title>Is Infinite Process: An Interesting 'Easy' Problem</title><link>https://pndv.github.io/posts/is-infinite-process/</link><pubDate>Tue, 23 May 2023 13:22:17 -0700</pubDate><guid>https://pndv.github.io/posts/is-infinite-process/</guid><description>&lt;h2 class="relative group"&gt;This is an interesting problem I came across on &lt;a href="https://app.codesignal.com/" target="_blank" rel="noreferrer"&gt;CodeSignal&lt;/a&gt;; it is marked as easy but
 it took me some time to figure out (with help from the Internet). Here is the problem:
-&lt;span>
-&lt;a href="#it-took-me-some-time-to-figure-out-with-help-from-the-internet-here-is-the-problem">
-&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
-&lt;/a>
-&lt;/span>
-&lt;/h2>&lt;p>Given integers a and b, determine whether the following pseudocode results in an infinite loop&lt;/p>
-&lt;p>while a is not equal to b do
+ &lt;div id="it-took-me-some-time-to-figure-out-with-help-from-the-internet-here-is-the-problem" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#it-took-me-some-time-to-figure-out-with-help-from-the-internet-here-is-the-problem" aria-label="Anchor"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;Given integers a and b, determine whether the following pseudocode results in an infinite loop&lt;/p&gt;
+&lt;p&gt;while a is not equal to b do
 increase a by 1
 decrease b by 1
-Assume that the program is executed on a virtual machine which can store arbitrary long numbers and execute forever.&lt;/p>
-&lt;p>Example&lt;/p>
-&lt;p>For a = 2 and b = 6, the output should be
-solution(a, b) = false;&lt;/p>
-&lt;h2 id="solutiona-b--true" >For a = 2 and b = 3, the output should be
-solution(a, b) = true.
-&lt;span>
-&lt;a href="#solutiona-b--true">
-&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
-&lt;/a>
-&lt;/span>
-&lt;/h2>&lt;p>The first approach was:&lt;/p>
-&lt;ol>
-&lt;li>To trivially return &lt;code>true&lt;/code> if &lt;code>a&lt;/code> &amp;gt; &lt;code>b&lt;/code>&lt;/li>
-&lt;li>Run a loop 10 times, noting the difference each time, return false (i.e. it will go in infinite loop) if:
-&lt;ol>
-&lt;li>difference becomes zero any time&lt;/li>
-&lt;li>absolute difference between two numbers has been consistently decreasing over the loop&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;/ol>
-&lt;p>Needless to say, this approach failed.&lt;/p>
-&lt;p>This is marked as an &amp;ldquo;Easy&amp;rdquo; problem, so I was slightly embarrassed at not getting it right. Nevertheless, I
-persisted in trying with various conditions, seeing why the code is succeeding. After 2 days, I decided to look on
-the web to see where I was going wrong. I came across this one-liner in &lt;code>python&lt;/code>:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">def&lt;/span> &lt;span style="color:#a6e22e">isInfiniteProcess&lt;/span>(a, b):
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#66d9ef">True&lt;/span> &lt;span style="color:#66d9ef">if&lt;/span> (a&lt;span style="color:#f92672">-&lt;/span>b) &lt;span style="color:#f92672">%&lt;/span> &lt;span style="color:#ae81ff">2&lt;/span> &lt;span style="color:#f92672">==&lt;/span> &lt;span style="color:#ae81ff">1&lt;/span> &lt;span style="color:#f92672">or&lt;/span> a&lt;span style="color:#f92672">&amp;gt;&lt;/span>b &lt;span style="color:#66d9ef">else&lt;/span> &lt;span style="color:#66d9ef">False&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Which left me with more questions&amp;hellip; what exactly is this logic?&lt;/p>
-&lt;h4 id="the-aha-moment" >The Aha! moment
-&lt;span>
-&lt;a href="#the-aha-moment">
-&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
-&lt;/a>
-&lt;/span>
-&lt;/h4>&lt;p>The difference of two numbers should be odd, then it will go in infinite loop. But why? Here is the reasoning, if
-you look at the number line:&lt;/p>
-&lt;p>&lt;img src="number-line.gif" alt="Number Line">&lt;/p>
-&lt;p>The blue lines show convergence, the difference between the two numbers is even. Whereas, the numbers marked with
-red have odd difference, at each loop, you see even though they are getting closer, at one point, given in orange,
-they &lt;em>cross over each other without meeting&lt;/em>.&lt;/p></description></item><item><title>The Stupidity of Hindi Translation For A Female President (राष्ट्रपत्नि) (राष्ट्रपत्नि) Suggestion</title><link>https://pndv.github.io/posts/rashtrapatni-debate/</link><pubDate>Wed, 19 Oct 2022 13:58:09 -0700</pubDate><guid>https://pndv.github.io/posts/rashtrapatni-debate/</guid><description>&lt;p>The elevation of Ms Draupadi Murmu as the head of state should have been a routine exercise, witnessed by India
-every 5 years like a clockwork. And it was, till some lawmakers floated the puerile and &lt;em>prima-facie&lt;/em> sexist comment
+Assume that the program is executed on a virtual machine which can store arbitrary long numbers and execute forever.&lt;/p&gt;</description></item><item><title>The Stupidity of Hindi Translation For A Female President (राष्ट्रपत्नि) (राष्ट्रपत्नि) Suggestion</title><link>https://pndv.github.io/posts/rashtrapatni-debate/</link><pubDate>Wed, 19 Oct 2022 13:58:09 -0700</pubDate><guid>https://pndv.github.io/posts/rashtrapatni-debate/</guid><description>&lt;p&gt;The elevation of Ms Draupadi Murmu as the head of state should have been a routine exercise, witnessed by India
+every 5 years like a clockwork. And it was, till some lawmakers floated the puerile and &lt;em&gt;prima-facie&lt;/em&gt; sexist comment
 of calling her राष्ट्रपत्नि. The only mitigating argument which can be made for making the senseless suggestion is
-that these lawmakers are illiterate. Though, even literacy is no guarantee for presence of common sense.&lt;/p>
-&lt;p>They blindly followed the gender correspondence of पति-पत्नि in terms of husband-wife to make this suggestion;
-certainly not expected from legislators, who are expected to conduct due-diligence and have rigour in their
-arguments. They forgot that a word may have multiple meanings, and fell into the trap of seeing only the most common
-usage to make this vacuous suggestion.&lt;/p>
-&lt;p>The following definition, taken from &lt;a href="https://www.sanskrit-lexicon.uni-koeln.de/scans/MWScan/2014/web/webtc/servepdf.php?page=582">Monier-Williams Sanskrit-English Dictionary&lt;/a>
-should lay to rest any confusion regarding why the using &lt;code>राष्ट्रपत्नि&lt;/code> for a female president is inappropriate.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">Word&lt;/th>
-&lt;th style="text-align:left">Meaning&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">पति&lt;/td>
-&lt;td style="text-align:left">1. husband&lt;!-- raw HTML omitted -->2. a master, owner, possessor, lord, ruler, sovereign&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">पत्नि&lt;/td>
-&lt;td style="text-align:left">1. A female possessor, mistress&lt;!-- raw HTML omitted -->2. wife&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>The definitions make it amply clear that only the word पति can be used with the word राष्ट्र (nation) for denoting a
-sovereign of a nation. More examples where the word पति is used in similar meaning (i.e. master, lord) are&lt;/p>
-&lt;ol>
-&lt;li>सभापति (lord of the council)&lt;/li>
-&lt;li>कुलपति (chancellor, lord/titular head of a university)&lt;/li>
-&lt;/ol>
-&lt;p>I was able to get these definitions by five minutes of searching on the internet. The members of parliament could
-have avoided the controversy and subsequent embarrassment if only they had done the same.&lt;/p></description></item><item><title>Fixing My Nikon CoolScan 8000</title><link>https://pndv.github.io/posts/fixing-coolscan-8000/</link><pubDate>Mon, 11 Jul 2022 15:58:39 -0700</pubDate><guid>https://pndv.github.io/posts/fixing-coolscan-8000/</guid><description>&lt;p>&lt;a href="#the-fix-and-part-specifications">Skip the introduction and go directly to the fix&lt;/a>&lt;/p>
-&lt;h2 id="bought-a-coolscan-8000" >Bought a CoolScan 8000
-&lt;span>
-&lt;a href="#bought-a-coolscan-8000">
-&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
-&lt;/a>
-&lt;/span>
-&lt;/h2>&lt;p>I recently bought a used Nikon Coolscan 8000 film scanner on eBay. These scanners are old, so much so that Nikon
+that these lawmakers are illiterate. Though, even literacy is no guarantee for presence of common sense.&lt;/p&gt;</description></item><item><title>Fixing My Nikon CoolScan 8000</title><link>https://pndv.github.io/posts/fixing-coolscan-8000/</link><pubDate>Mon, 11 Jul 2022 15:58:39 -0700</pubDate><guid>https://pndv.github.io/posts/fixing-coolscan-8000/</guid><description>&lt;p&gt;&lt;a href="https://pndv.github.io/posts/fixing-coolscan-8000/#the-fix-and-part-specifications" &gt;Skip the introduction and go directly to the fix&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;Bought a CoolScan 8000
+ &lt;div id="bought-a-coolscan-8000" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#bought-a-coolscan-8000" aria-label="Anchor"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;I recently bought a used Nikon Coolscan 8000 film scanner on eBay. These scanners are old, so much so that Nikon
 does not even manufacture them anymore. They were deprecated in early 2000s in favour of Coolscan 9000, and even
 9000s are not manufactured anymore! However, 8000 is much cheaper than 9000; while used 9000 go for around
-US$3000-5000, whereas used 8000 go for around US$1000-1500.&lt;/p>
-&lt;p>Given that these scanners are more than 2 decades old, they still have a cult following (check
-the &lt;a href="https://www.facebook.com/groups/1514948298527146">Facebook group&lt;/a>).
-The reason has to do with the excellent lens, true 4000dpi scanning resolution, 14 bit A/D (analog-to-digital)
-converter and, its autofocus mechanism.&lt;/p>
-&lt;hr>
-&lt;h2 id="the-trouble" >The Trouble
-&lt;span>
-&lt;a href="#the-trouble">
-&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
-&lt;/a>
-&lt;/span>
-&lt;/h2>&lt;p>Short version, I received a broken piece. Upon turning it on, I could hear some motor noises but the LED power light
-did not turn on. Before initiating a return, as eBay allows return of non-working merchandise even if seller stated
-that they do not accept return, I decided to open the cover to check if there is anything I can fix quickly.&lt;/p>
-&lt;h3 id="led" >LED
-&lt;span>
-&lt;a href="#led">
-&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
-&lt;/a>
-&lt;/span>
-&lt;/h3>&lt;p>Simplest of the fix; it fell out of its socket during the shipping. This was the reason I thought the rest of the
-repair will be as easy, that maybe some components got misaligned during shipping. This encouraged me to look at the
-other issue. Maybe it was just improper handling that some parts were out of alignment.&lt;/p>
-&lt;h3 id="scanner-not-detecting-the-film-tray" >Scanner not detecting the film tray
-&lt;span>
-&lt;a href="#scanner-not-detecting-the-film-tray">
-&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
-&lt;/a>
-&lt;/span>
-&lt;/h3>&lt;p>I saw that the shaft and motor were not touching when I powered on the scanner. I thought that this was another
-simple fix, and down the rabbit hole I went&amp;hellip;&lt;/p>
-&lt;p>Here is what I mean:
-&lt;img src="ShaftCollar-TK156-005-CoolScan-8000/ShaftCollar-TK156-005-CoolScan-8000-worm-drive.jpg" alt="Broken pieces at the end">&lt;/p>
-&lt;p>The upper portion (circled) is the shaft-collar that was broken, and I had to get it 3D printed. The lower portion of
-the shaft contained the broken coupling (not shown) is the part I thought was misaligned. When I replaced the
-shaft-collar, I tried to align the two pieces together; however, the shaft would slip even with the slightest rotation.
-Thanks to the amazing community on Facebook; I found out that even the coupling is broken.&lt;/p>
-&lt;p>After I had replaced these parts, the scanner started working normally. But, as soon as I put the cover back on, the
-same problem showed up. I removed the cover to see maybe I had incorrectly put some component, or forgot to tighten
-a screw. However, as soon as I removed the cover&amp;hellip; scanner started working again. I was left scratching my head,
-Turns out, the cover was skewing the whole body to a side. More details in &lt;a href="#spacers">this section&lt;/a>&lt;/p>
-&lt;hr>
-&lt;h2 id="the-fix-and-part-specifications" >The fix and part specifications
-&lt;span>
-&lt;a href="#the-fix-and-part-specifications">
-&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
-&lt;/a>
-&lt;/span>
-&lt;/h2>&lt;p>I had to 3D print one part, and ordered other parts from McMaster-Carr. I have provided the links for what I
-purchased from McMaster-Carr (non-affiliate links i.e I do not get any money from the links). I have provided the
-STL file for the missing part which I had to 3-D print.&lt;/p>
-&lt;h3 id="shaft-collar-part-tk156-005" >Shaft collar (part: TK156-005)
-&lt;span>
-&lt;a href="#shaft-collar-part-tk156-005">
-&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
-&lt;/a>
-&lt;/span>
-&lt;/h3>&lt;p>This part is referred as TK156-005 in the Nikon repair manual andI had to 3D print this part. The picture of broken and
-whole part are shown side-by-side.&lt;/p>
-&lt;p>&lt;img src="ShaftCollar-TK156-005-CoolScan-8000/ShaftCollar-TK156-005-CoolScan-8000-compare.jpg" alt="Before And After">&lt;/p>
-&lt;p>Getting correct measurements was a challenge, but designing on Fusion 360 was fairly easy. You can download
-the file as either:&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="ShaftCollar-TK156-005-CoolScan-8000/ShaftCollar-TK156-005-CoolScan-8000.f3d">Fusion 360&lt;/a>&lt;/li>
-&lt;li>&lt;a href="ShaftCollar-TK156-005-CoolScan-8000/ShaftCollar-TK156-005-CoolScan-8000.step">STEP&lt;/a> for designing&lt;/li>
-&lt;li>&lt;a href="ShaftCollar-TK156-005-CoolScan-8000/ShaftCollar-TK156-005-CoolScan-8000.stl">STL&lt;/a> for 3D printing&lt;/li>
-&lt;/ul>
-&lt;h3 id="screws-and-washers" >Screws and washers
-&lt;span>
-&lt;a href="#screws-and-washers">
-&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
-&lt;/a>
-&lt;/span>
-&lt;/h3>&lt;ul>
-&lt;li>Most of the missing screws are &lt;a href="https://www.mcmaster.com/90258A178/">M3x0.5mm of 8mm length&lt;/a> (i.e. 3mm diameter,
-0.5mm screw pitch, 8mm length)&lt;/li>
-&lt;li>Screws for motor are M3x0.5mm with 5mm length; however, I was able to use 8mm long screws&lt;/li>
-&lt;li>The external cover and front face also uses &lt;a href="https://www.mcmaster.com/98689A112/">3mm washer&lt;/a>
-and &lt;a href="https://www.mcmaster.com/92148A150/">3mm split-lock washer&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="motor-coupling" >Motor coupling
-&lt;span>
-&lt;a href="#motor-coupling">
-&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
-&lt;/a>
-&lt;/span>
-&lt;/h3>&lt;p>I went through a few links given on the Facebook group, and many people had used a single-form coupling. However,
-that required that the shafts to be ground in order to fit one straight-edge of the coupling. I did not like the
-idea because I was worried that I may grind down too much, and also, I may have to return the scanner. So I used
-clamp-style jaw, zero-backlash, vibration-damping motor coupling made of aluminium by
-&lt;a href="https://www.ruland.com/">Ruland&lt;/a>. These coupling come in three pieces, one hub for the motor shaft, one hub for worm
-drive shaft, and a coupling spider and are made in the USA.&lt;/p>
-&lt;p>These are, however, expensive (around $50) compared to a coupling like uxCell 5mm to 6mm rigid coupling on
-&lt;a href="https://www.amazon.com/a13052700ux0251-Stepper-Coupling-Coupler-Encoder/dp/B00DCAIRIC">Amazon&lt;/a> which is
-available for around $10.&lt;/p>
-&lt;ul>
-&lt;li>The &lt;a href="https://www.mcmaster.com/9845T51-9845T416/">motor shaft&lt;/a> is 6mm diameter, 21.8mm long, 15mm outer diameter
-(Ruland part MJC15-6-A)&lt;/li>
-&lt;li>The &lt;a href="https://www.mcmaster.com/9845T51-9845T415/">worm drive shaft&lt;/a> is 5mm in diameter, 21.8mm long, 15mm outer
-diameter (Ruland part MJC15-5-A)&lt;/li>
-&lt;li>The &lt;a href="https://www.mcmaster.com/9845T485/">coupling spider&lt;/a> fits in the hubs of these coupling (Ruland part JD10/15-98R)&lt;/li>
-&lt;/ul>
-&lt;p>I am a big fan of McMaster-Carr because of the quality components; Amazon is full of third-party sellers who are
-either a hit or miss. While you can return the order for a full refund, it&amp;rsquo;s a hassle to order from another seller if
-you didn&amp;rsquo;t receive what you ordered, or if the product fails.&lt;/p>
-&lt;h3 id="slide-rails-and-shaft" >Slide rails and shaft
-&lt;span>
-&lt;a href="#slide-rails-and-shaft">
-&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
-&lt;/a>
-&lt;/span>
-&lt;/h3>&lt;p>Both are made of stainless steel with very smooth finish to enable to LED bulb to slide smoothly over the film.&lt;/p>
-&lt;ul>
-&lt;li>Slide rail is 300mm long and 10mm diameter&lt;/li>
-&lt;li>The worm-drive shaft is 225mm long and the threads are M10x1.25mm i.e 10mm outer diameter(OD) with 1.25mm pitch
-&lt;ul>
-&lt;li>10mm diameter at the widest i.e. the part with threads&lt;/li>
-&lt;li>6mm diameter at the ends i.e. the part without threads&lt;/li>
-&lt;li>The narrow ends on either side are 2.5cm long&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="spacers" >Spacers
-&lt;span>
-&lt;a href="#spacers">
-&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
-&lt;/a>
-&lt;/span>
-&lt;/h3>&lt;p>The last issue that remained unresolved was that the scanner stopped detecting tray as soon as I put the cover back
-on! From the Facebook group, I found a comprehensive repair manual for CoolScan 9000, which is one step up from 8000,
-however, overall hardware is the same. That document mentioned that there has to be a 1mm gap between backplate and
-the cover. I could not find any such information about 8000 but the spacers are relatively cheap, so I put 2mm
-spacers on the backplate, and this fixed the problem!
-&lt;a href="https://www.mcmaster.com/92871A102/">Link to the spacer I ordered.&lt;/a>&lt;/p>
-&lt;hr>
-&lt;h2 id="why-a-film-scanner-why-film-photography-at-all" >Why a film scanner? Why film photography at all?
-&lt;span>
-&lt;a href="#why-a-film-scanner-why-film-photography-at-all">
-&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
-&lt;/a>
-&lt;/span>
-&lt;/h2>&lt;p>The digital cameras have taken over everything. As a hobbyist though, I dislike the idea of taking 100 photos of a
-scene with the intention of choosing the good photos later. The &amp;ldquo;later&amp;rdquo; part never comes, and I am stuck with
-hundreds of photos where I can&amp;rsquo;t decide which ones to keep and which ones to delete.&lt;/p>
-&lt;p>Since photography is a hobby for me, I like to a take leisurely approach and deliberate about each photo before
-pressing the button. That, however, does not work when I am shooting digital; I feel compelled to keep taking
-pictures lest I may miss a great shot. Film cameras, force me to slow down. There is no 4 frames/second of shoot
-mode, no auto-bracketing, and not even a built-in light meter.&lt;/p>
-&lt;p>On top of it, the quality of photos is hard to beat. I use medium-format film camera and the potential resolution of
-these 120mm films is no match for run-of-the-mill digital cameras. You have to shell out a minimum of US$10,000 to
-get similar digital camera; and they are bulky to carry around.&lt;/p>
-&lt;h2 id="finishing-thoughts" >Finishing thoughts
-&lt;span>
-&lt;a href="#finishing-thoughts">
-&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
-&lt;/a>
-&lt;/span>
-&lt;/h2>&lt;p>All in all, I am satisfied with the scanner, but not satisfied with the purchase. I wanted a working scanner, but it
-turned out to be a project in itself to get it to working condition. I learnt about 3D printing and CAD design, that
-is a blessing in disguise. However, I had paid extra money to get a working scanner, and it&amp;rsquo;s frustrating to receive
-a non-working scanner when it was advertised as working. In fairness, the seller has agreed to reimburse the cost
-and a little extra for the trouble. I have sent him all the things I had to purchase to fix the scanner, and I am
-yet to hear back on my message. I will keep my fingers crossed and in the meantime, next project is to calibrate the
-scanner with a standard IT8 colour profile.&lt;/p></description></item><item><title>We are NOT Living in the Matrix</title><link>https://pndv.github.io/posts/not-living-in-matrix/</link><pubDate>Mon, 04 Jul 2022 19:35:53 -0700</pubDate><guid>https://pndv.github.io/posts/not-living-in-matrix/</guid><description>&lt;p>I postulate that we are not living in the Matrix. If we were living in a world rule by intelligent machines, then
+US$3000-5000, whereas used 8000 go for around US$1000-1500.&lt;/p&gt;</description></item><item><title>We are NOT Living in the Matrix</title><link>https://pndv.github.io/posts/not-living-in-matrix/</link><pubDate>Mon, 04 Jul 2022 19:35:53 -0700</pubDate><guid>https://pndv.github.io/posts/not-living-in-matrix/</guid><description>&lt;p&gt;I postulate that we are not living in the Matrix. If we were living in a world rule by intelligent machines, then
 the machines would have lobotomised the human beings to a vegetative state. The only reason for keeping humans was
 to harness the electricity/heat from their bodies, for this purpose they wouldn&amp;rsquo;t need an actively thinking human
-who can potentially collapse the whole existence of machines'.&lt;/p>
-&lt;p>The machines, if they were intelligent, would have guessed quickly that they don&amp;rsquo;t need to take the trouble of
-building a fake reality, in which people are mostly happy, to imprison them.&lt;/p></description></item><item><title>Reducing E Waste</title><link>https://pndv.github.io/posts/reducing-e-waste/</link><pubDate>Wed, 01 Jun 2022 20:01:32 -0700</pubDate><guid>https://pndv.github.io/posts/reducing-e-waste/</guid><description>&lt;p>Besides Right-to-Repair, a supplementary and much easier law to enact will be to require companies to make public
+who can potentially collapse the whole existence of machines'.&lt;/p&gt;
+&lt;p&gt;The machines, if they were intelligent, would have guessed quickly that they don&amp;rsquo;t need to take the trouble of
+building a fake reality, in which people are mostly happy, to imprison them.&lt;/p&gt;</description></item><item><title>Reducing E Waste</title><link>https://pndv.github.io/posts/reducing-e-waste/</link><pubDate>Wed, 01 Jun 2022 20:01:32 -0700</pubDate><guid>https://pndv.github.io/posts/reducing-e-waste/</guid><description>&lt;p&gt;Besides Right-to-Repair, a supplementary and much easier law to enact will be to require companies to make public
 all schematics, bill-of-material, source code, CAD designs for the deprecated products; i.e. the products which are
-no longer sold, repaired, and for even the replacement parts are no longer manufactured.&lt;/p>
-&lt;p>This is not only good for environment, but also enables the general public to keep using the products they own for
+no longer sold, repaired, and for even the replacement parts are no longer manufactured.&lt;/p&gt;
+&lt;p&gt;This is not only good for environment, but also enables the general public to keep using the products they own for
 as long as they wish. This is in line with the copyright and patent laws, wherein the patents and copyrights expire
-after a certain time.&lt;/p></description></item></channel></rss>
+after a certain time.&lt;/p&gt;</description></item></channel></rss>
