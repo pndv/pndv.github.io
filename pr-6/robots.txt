@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pndv.github.io/sitemap.xml
