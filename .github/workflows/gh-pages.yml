@@ -6,11 +6,14 @@ on:
       - master
   pull_request:
 
+permissions:
+  contents: write
+
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           submodules: false   # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0      # Fetch all history for .GitInfo and .Lastmod
@@ -24,9 +27,20 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Deploy
+      - name: Deploy preview
+        if: github.event_name == 'pull_request'
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/master'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: preview
+          publish_dir: ./public
+          destination_dir: pr-${{ github.event.pull_request.number }}
+          keep_files: true
+
+      - name: Deploy production
+        if: github.ref == 'refs/heads/master'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
           publish_dir: ./public
