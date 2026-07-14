@@ -1,5 +1,5 @@
 ---
-title: "The Stupidity of Hindi Translation For A Female President (राष्ट्रपत्नि) (राष्ट्रपत्नि) Suggestion"
+title: "The Stupidity of Hindi Translation For A Female President (राष्ट्रपत्नि) Suggestion"
 date: 2022-10-19T13:58:09-07:00
 draft: false
 ---
